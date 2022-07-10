@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="/src/dashboard.css">
+   
+</head>
+  <body>
+    
+  <div class="d-flex">
+    <!-- Start -->
+    <section class="col-1">
+        <div class="d-flex flex-column border-end border-1 border-secondary">
+            <div class="pic mx-auto mt-3"></div>
+            <div class="d-flex flex-column mx-auto mt-3 give border-top border-secondary px-2">
+                <div class="py-2 mx-auto"><a href=""><i class="bi h4 bi-speedometer"></i></a></div>
+                <div class="py-2 mx-auto"><a href=""><i class="bi h4 bi-vector-pen"></i></a></i></div>
+                <div class="py-2 mx-auto"><a href=""><i class="bi h2 bi-link-45deg"></i></a></div>
+                <div class="py-2 mx-auto"><a href=""><i class="bi h3 bi-paperclip"></i></a></div>
+                <div class="py-2 mx-auto"><a href=""><i class="bi h4 bi-send"></i></a></div>
+                <div class="py-2 mx-auto"><a href=""><i class="bi h4 bi-microsoft"></i></a></div>
+                <div class="py-2 mx-auto"><a href=""><i class="bi h4 bi-bezier2"></i></a></div>
+                <div class="py-2 mx-auto"><a href=""><i class="bi h4 bi-shield-exclamation"></i></div>
+            </div>
+            <!-- <div class="mx-auto py-5">
+            </div> -->
+            <div class="mx-auto py-5">
+                
+                <div><a href=""><i class="bi h4 bi-box-arrow-right"></i></a></div>
+            </div>
+
+        </div>
+    </section>
+    <!-- Next -->
+    <section class="col-sm-11">
+        <section class="mainNav border-bottom border-1 border-secondary">
+            <div class="subNav1">
+                <div class="overview"><i class="bi h4 bi-graph-up-arrow"></i><p>Overview</p></div>
+                <div class="report"><i class="bi h4 bi-bar-chart-line-fill"></i><p>Report</p></div>
+            </div>
+            <div class="subNav2">
+                <div class="search">
+                    <input type="text" class=" form-control">
+                    <i class="bi h5 bi-search"></i>
+                </div>
+                <div class="messages"><span class="mes"></span><i class="bi pt-2 h4 bi-envelope"></i></div>
+                <!-- <div class="search"><i class="bi bi-search"></i></div> -->
+                <div class="wrapper">
+                    <div class="pic"></div>
+                    <div class="popup" onclick="myFunction()"><i class="bi bi-caret-down-fill"></i>
+                        <span class="popuptext shadow" id="myPopup">Popup text...</span>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+        <section class="mainbody mx-auto container">
+            <div class="div1 shadow  mb-5">
+            <div class="top border-bottom">
+                <div class="top1 mx-auto my-auto">
+                    <h6>Connected Devices</h6>
+                </div>
+            </div>
+            <div class="down">
+                <div class="down1 m-auto rounded-circle border border-3 border-info">
+                    <div class="my-auto mx-auto">
+                        <h1>5</h1>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div class="div1 shadow  mb-5">
+            <div class="top border-bottom">
+                <div class="top1 mx-auto my-auto">
+                    <h6>Connected Devices</h6>
+                </div>
+            </div>
+            <div class="down">
+                <div class="down1 m-auto rounded-circle border border-3 border-info">
+                    <div class="my-auto mx-auto">
+                        <h1>5</h1>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div class="div1 shadow  mb-5">
+            <div class="top border-bottom">
+                <div class="top1 mx-auto my-auto">
+                    <h6>Connected Devices</h6>
+                </div>
+            </div>
+            <div class="down">
+                <div class="down1 m-auto rounded-circle border border-3 border-info">
+                    <div class="my-auto mx-auto">
+                        <h1>5</h1>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+        <section class="container">
+            <div>
+                <h1 class="h4">Average tempareture, pulse rate & breath rate</h1>
+            </div>
+        </section>
+        <section class="">
+            <div class="container ">
+                <div class="container1 py-3 w-50"><canvas id="myChart"></canvas></div>
+                <div class="container1 py-3 w-50"><canvas id="myChart1"></canvas></div>
+                <div class="container1 py-3 w-50"><canvas id="myChart2"></canvas></div>
+            </div>
+        </section>
+    
+    </section>
+  </div>
+
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="/src/dashboard.js"></script>
+
+</body>
+</html>
