@@ -10,124 +10,116 @@
 
 </head>
   <body>
-    
-  <div class="d-flex">
-    <!-- Side nav Start  -->
-    <section class="col-1">
-        <div class="d-flex flex-column border-end border-1 border-secondary">
-            <div class="pic mx-auto mt-3"></div>
-            <div class="d-flex flex-column mx-auto mt-3 give border-top border-secondary px-2">
-                <div class="py-2 mx-auto"><a href=""><i class="bi h4 bi-speedometer"></i></a></div>
-                <div class="py-2 mx-auto"><a href=""><i class="bi h4 bi-vector-pen"></i></a></i></div>
-                <div class="py-2 mx-auto"><a href=""><i class="bi h2 bi-link-45deg"></i></a></div>
-                <div class="py-2 mx-auto"><a href=""><i class="bi h3 bi-paperclip"></i></a></div>
-                <div class="py-2 mx-auto"><a href=""><i class="bi h4 bi-send"></i></a></div>
-                <div class="py-2 mx-auto"><a href=""><i class="bi h4 bi-microsoft"></i></a></div>
-                <div class="py-2 mx-auto"><a href=""><i class="bi h4 bi-bezier2"></i></a></div>
-                <div class="py-2 mx-auto"><a href=""><i class="bi h4 bi-shield-exclamation"></i></div>
-            </div>
-            <div class="mx-auto py-3">
-                
-                <div><a href=""><i class="bi h4 bi-box-arrow-right"></i></a></div>
-            </div>
 
-        </div>
-    </section>
-    <!-- Side nav end  -->
-    
-    <section class="col-sm-11">
+  <div class="d-flex">
+    <section class="col-sm-12">
         <!-- Top nav Start  -->
-        <section class="mainNav border-bottom border-1 border-secondary">
-            <div class="subNav1">
-                <div class="overview"><i class="bi h4 bi-graph-up-arrow"></i><p>Overview</p></div>
-                <div class="report"><i class="bi h4 bi-bar-chart-line-fill"></i><p>Report</p></div>
-            </div>
-            <div class="subNav2">
-                <div class="search">
-                    <input type="text" class=" form-control">
-                    <i class="bi h5 bi-search"></i>
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+                <div class="subNav1">
+                    <div class="overview"><i class="bi h4 mx-2 bi-graph-up-arrow"></i><p>Overview</p></div>
+                    <div class="report"><i class="bi h4 mx-2 bi-bar-chart-line-fill"></i><p>Report</p></div>
                 </div>
-                <div class="messages"><span class="mes"></span><i class="bi pt-2  h4 bi-envelope"></i></div>
-                <div class="wrapper">
-                    <div class="pic"></div>
-                    <div class="popup" onclick="myFunction()"><i class="bi bi-caret-down-fill"></i>
-                        <span class="popuptext shadow" id="myPopup"> Popup text...</span>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 me-5">
+                  <li class="nav-item">
+                    <div class="search mx-md-5 mt-1">
+                        <input type="text" class="form-control">
+                        <i class="bi h5 bi-search search-icon"></i>
                     </div>
-                </div>
-                
+                  </li>
+                  <li class="nav-item">
+                    <div class="messages"><span class="mes"></span><i class="bi pt-2 h4 bi-envelope"></i></div>
+                  </li>
+                  <li class="nav-item">
+                    <div class="wrapper">
+                        <div class="pic"></div>
+                        <div class="popup" onclick="myFunction()"><i class="bi bi-caret-down-fill"></i>
+                            <span class="popuptext shadow" id="myPopup">Popup text...</span>
+                        </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
             </div>
-        </section>
+        </nav>
     <!-- Top nav end  -->
     <!-- Main body Start  -->
         <section class="d-flex mt-5">
-            <div class="col-3 d-flex flex-column">
-                <div class="mx-auto my-5 py-5 px-5 shadow rounded">
-                    <div class="py-3"><a href=""><h2>DEVICE A</h2></a></div>
-                    <div class="py-3"><a href=""><h2>DEVICE B</h2></a></div>
-                    <div class="py-3"><a href=""><h2>DEVICE C</h2></a></div>
-                    <div class="py-3"><a href=""><h2>DEVICE D</h2></a></div>
-                </div>
-            </div>
-            <div class="col-9">
-                <div class="mx-auto col-11 my-5 py-5 px-5 shadow rounded">
-                <div class="d-flex flex-column">
-                    <h3 class="mx-auto">BPM</h3>
-                </div>
-                <div class="d-flex ">
-                    
-                    <div class="div1 mb-5">
-                        <div class="top">
-                            <div class="top1 mx-auto my-auto">
-                                <h5>Tempareture</h5>
-                            </div>
-                        </div>
-                        <div class="down">
-                            <div class="down1 m-auto rounded-circle back back ">
-                                <div class="my-auto mx-auto">
-                                    <h1 class="degree">37</h1>
-                                    <span class="h4 cel">&#8451;</span>
-                                </div>
-                            </div>
-                        </div>
-                        </div>
-                    <div class="div1 mb-5">
-                        <div class="top">
-                            <div class="top1 mx-auto my-auto">
-                                <h5>Pulse Rate</h5>
-                            </div>
-                        </div>
-                        <div class="down">
-                            <div class="down1 m-auto rounded-circle back ">
-                                <div class="my-auto mx-auto">
-                                    <h1 class="degree">37</h1>
-                                </div>
-                            </div>
-                        </div>
-                        </div>
-                    <div class="div1 mb-5">
-                        <div class="top">
-                            <div class="top1 mx-auto my-auto d-flex flex-column">
-                                <h5 class="mx-auto">Oxygen </h5>
-                                <h5>Consentration</h5>
-                            </div>
-                        </div>
-                        <div class="down">
-                            <div class="down1 m-auto rounded-circle back ">
-                                <div class="my-auto mx-auto">
-                                    <h1 class="degree">37</h1>
-                                    <span class="per h4">%</span>
-                                </div>
-                            </div>
-                        </div>
-                        </div>
+            <div class="row">
+                <div class="col-sm-3  d-flex flex-column">
+                    <div class="mx-auto my-5 py-5 px-5 shadow rounded">
+                        <div class="py-3"><a href=""><h2 class="kh">DEVICE A</h2></a></div>
+                        <div class="py-3"><a href=""><h2 class="kh">DEVICE B</h2></a></div>
+                        <div class="py-3"><a href=""><h2 class="kh">DEVICE C</h2></a></div>
+                        <div class="py-3"><a href=""><h2 class="kh">DEVICE D</h2></a></div>
                     </div>
                 </div>
-            </div>
+                <div class="col-sm-9 bigger">
+                    <div class="mx-auto col-11 my-5 py-5 px-5 shadow rounded">
+                    <div class="d-flex flex-column">
+                        <h3 class="mx-auto">BPM</h3>
+                    </div>
+                    <div class="d-flex set-row">   
+                        <div class="div1 mb-5">
+                            <div class="top">
+                                <div class="top1 mx-auto my-auto">
+                                    <h5>Tempareture</h5>
+                                </div>
+                            </div>
+                            <div class="down">
+                                <div class="down1 m-auto rounded-circle back back ">
+                                    <div class="my-auto mx-auto">
+                                        <h1 class="degree">37</h1>
+                                        <span class="h4 cel">&#8451;</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="div1 mb-5">
+                            <div class="top">
+                                <div class="top1 mx-auto my-auto">
+                                    <h5>Pulse Rate</h5>
+                                </div>
+                            </div>
+                            <div class="down">
+                                <div class="down1 m-auto rounded-circle back ">
+                                    <div class="my-auto mx-auto">
+                                        <h1 class="degree">37</h1>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="div1 mb-5">
+                            <div class="top">
+                                <div class="top1 mx-auto my-auto d-flex flex-column">
+                                    <h5 class="mx-auto">Oxygen </h5>
+                                    <h5>Consentration</h5>
+                                </div>
+                            </div>
+                            <div class="down">
+                                <div class="down1 m-auto rounded-circle back ">
+                                    <div class="my-auto mx-auto">
+                                        <h1 class="degree">37</h1>
+                                        <span class="per h4">%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>   
+            
         </section>
-    <!-- Main body Start  -->
+    <!-- Main body Ends  -->
     </section>
   </div>
 
-<script src="/src/messages.js"></script>     
+<script src="/src/messages.js"></script> 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>    
 </body>
 </html>
